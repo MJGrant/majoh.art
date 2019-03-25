@@ -1,0 +1,171 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+body {
+	background-color: #C2CBD3;
+	color: #633030;
+}
+
+p {margin:4px 0 4px 0;}
+
+h1{font-size:24px;}
+h2 {font-size:18px;}
+h3 {font-size:16px;margin-bottom:2px;}
+
+a:link { color: #633030; text-decoration: none; }
+a:visited { color: #633030; }
+a:hover { color: gray; }
+a:active { text-decoration: none; }
+#indexcontent a:link, a:visited {color:gray;}
+
+#footer {
+	clear:both;
+	max-width:150px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:15px;
+	padding-left:235px;
+	text-align:center;
+}
+
+#namebox {
+	height:100px;
+	margin-bottom:-20px;
+}
+
+#namebox img {
+	display:block;
+	max-width:90%;
+	max-height:100%;
+	padding-top:4px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#name {
+	font-size:36px;
+}
+
+#resumelink {
+	font-weight:bold;
+	font-size:24px;
+}
+
+#resumewrap {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:80%;
+	width:770px;
+}
+
+#indexwrap{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:80%;
+	width:820px;
+}
+
+
+#indexcontactbox {
+	float:left;
+	width:180px;
+}
+
+#indexcontactbox p { text-align:center;}
+
+#indexcontactbox img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#resumecontactbox {
+	float:left;
+	padding-left:10px;
+}
+
+
+#resumecontent{
+	float:right;
+	padding:0 20px 20px 20px;
+	background-color:white;
+}
+
+#indexcontent {
+	float:right;
+	padding:0 0 20px 20px;
+	background-color:white;
+}
+
+
+#indexnav li {
+	list-style:none;
+	margin-left:-35;
+}
+
+#googleplus {
+	font-size:16px;
+	font-weight:bold;
+	color:#633030;
+	text-align:center;
+}
+
+#below-portfolio-text {
+	padding-top:20px;
+	text-align:center;
+}
+
+.formerly{
+	font-size:12px;
+	font-style:italic;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+
+li { list-style:disc; padding:2px;}
+
+.portfolioGrid {
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	width:600px;
+	max-width:90%;
+}
+
+.portfolioGrid a img { border: 3px white solid;}
+.portfolioGrid a:hover img {border:3px #C2CBD3 solid;}
+
+#artworktitle {
+	text-align:center;
+}
+
+#artwork {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#artwork img {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:95%;
+	display:block;
+	border:5px solid #633030;
+}
+
+
+@media screen and (max-width:960px) {
+	h1 {font-size:16px;}
+	#indexcontactbox #indexselfimage { height:150px;} /* shrink portrait for mobile */
+	#indexwrap {max-width:100%; margin-left:auto; margin-right:auto;} /*center everything and make it as wide as the screen */
+	#indexcontent  {max-width:100%; margin-left:auto; margin-right:auto;} /*center everything and make it as wide as the screen */
+	#resumelink {font-weight:bold; font-size:16px;}
+	#indexcontactbox {width:100%; margin-left:auto; margin-right:auto;}
+	#indexcontent {padding:0 5 0 15;}
+	.portfolioGrid {margin:0; width:100%; margin-left:auto; margin-right:auto; margin-bottom:10px; padding:0;}
+	.portfolioGrid a img { width:62px; padding:0; margin:-5;}
+	#footer {width:100%; padding:10 0 10 0; margin:0; margin-left:auto; margin-right:auto;}
+}
